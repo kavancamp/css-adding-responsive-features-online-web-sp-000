@@ -33,19 +33,7 @@
   #navbar nav a{
     font-size: 0.9em;
   }
-
-  .col-1 {
-    float: none;
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .col-2 {
-    float: none;
-    width: 100%;
-    margin-left: 0;
-  }
-  .col-3{
+  .col-1, .col-2, .col-3, {
     float: none;
     width: 100%;
     margin-left: 0;
@@ -55,4 +43,14 @@
     -webkit-column-count: 1;
     column-count: 1;
   }
+  .border-right{
+    border: 0;
+  }
+  #details div{
+    height: auto;
+  }
+}
+
+@media screen and (mad width:700px;){
+  
 }
